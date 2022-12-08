@@ -26,7 +26,7 @@ apiVersion: extensions/v1beta1
 metadata:
   name: nifi
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: nifi
